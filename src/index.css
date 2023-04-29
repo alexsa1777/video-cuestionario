@@ -5,9 +5,141 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  text-align: center;
+}
+
+.conteiner {
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-content: center;
+  justify-content: initial;
+  flex-flow: wrap;
+}
+
+.card-question {
+  margin: 5px;
+  padding: 3px;
+  width: 23%;
+}
+
+.card-video {
+  margin: auto;
+  padding: 3px;
+  width: fit-content;
+}
+
+.video-btn-content {
+  justify-content: initial;
+  display: flex;
+  align-items: end;
+}
+
+.video-recording {
+  height: 70vh;
+}
+
+.record-btn {
+  height: 300px;
+  width: 100%;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+  text-align: initial;
+}
+
+.questioin-text {
+  background-color: #C4C4C4;
+  padding: 5px;
+  min-height: 50px;
+  display: flex;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.play-icon {
+  width: 86px;
+  margin-top: 180px;
+}
+
+.text-label {
+  margin: auto;
+}
+
+.finish-quiz {
+  padding: 10px;
+  color: white;
+  background-color: #ED4040;
+}
+
+.btn-back {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.container-recording {
+  margin-bottom: -36px;
+  display: flex;
+  width: 100%;
+  z-index: 3;
+  position: relative;
+  justify-content: end;
+  align-items: center;
+}
+
+.active-img {
+  width: 50px;
+  height: 30px;
+}
+
+.btn-float {
+  position: absolute;
+  margin: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.image-btn {
+  width: 80px;
+}
+
+.container-btns {
+  margin: 25px 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigators-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.element-hidden {
+  display: none;
+}
+
+.btn-hidden {
+  visibility: hidden;
+}
+
+.done-container {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.done-img {
+  width: 60%;
 }
